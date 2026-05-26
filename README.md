@@ -11,7 +11,7 @@
 
 ---
 
-![FR](https://img.shields.io/badge/🇫🇷-FRANÇAIS-0055A4?style=for-the-badge) &nbsp;&nbsp; ![EN](https://img.shields.io/badge/🇬🇧-ENGLISH-C8102E?style=for-the-badge)
+![FR](https://img.shields.io/badge/🇫🇷-FRANÇAIS-0055A4?style=for-the-badge) &nbsp;&nbsp; ![EN](https://img.shields.io/badge/🇬🇧-ENGLISH-C8102E?style=for-the-badge) &nbsp;&nbsp; ![ES](https://img.shields.io/badge/🇪🇸-ESPAÑOL-AA151B?style=for-the-badge)
 
 </div>
 
@@ -19,7 +19,7 @@
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ## 🇫🇷 Qui suis-je ?
 
@@ -35,7 +35,7 @@ Mon avantage concurrentiel n'est pas seulement technique — c'est **opérationn
 Disponible pour missions **freelance**, **remote** ou **présentiel Lyon / région AuRA**.
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ## 🇬🇧 Who am I?
 
@@ -51,17 +51,33 @@ My competitive edge is not just technical — it is **operational**: I orchestra
 Available for **freelance**, **remote**, or **on-site Lyon / AuRA region** engagements.
 
 </td>
+<td width="33%" valign="top">
+
+## 🇪🇸 ¿Quién soy?
+
+Soy un **Ingeniero de Software Aumentado por IA** con más de **20 años de liderazgo estratégico** en desarrollo de productos SaaS, infraestructuras cloud y arquitecturas backend críticas.
+
+Mi ventaja competitiva no es solo técnica — es **operativa**: orquesto un pipeline de LLMs en producción que me permite entregar en horas lo que a un equipo convencional le tomaría días.
+
+> **🧠 Pipeline de Orquestación IA:**
+> - **Gemini Pro** → Arquitecto cognitivo: análisis de requisitos, diseño de sistemas, revisión de arquitectura
+> - **Claude Code** → Generación de código nativo ultra-rápida en cualquier stack
+> - **Resultado** → MVPs funcionales en una tarde, código listo para producción, cero deuda técnica
+
+Disponible para proyectos **freelance**, **remote** o **presencial Lyon / región AuRA**.
+
+</td>
 </tr>
 </table>
 
 ---
 
-## 🛠️ Stack Technologique · Technology Stack
+## 🛠️ Stack Technologique · Technology Stack · Stack Tecnológico
 
 <table>
 <thead>
 <tr>
-<th>Catégorie · Category</th>
+<th>Catégorie · Category · Categoría</th>
 <th>Technologies</th>
 </tr>
 </thead>
@@ -104,7 +120,7 @@ Available for **freelance**, **remote**, or **on-site Lyon / AuRA region** engag
 </td>
 </tr>
 <tr>
-<td><strong>🗄️ Bases de données · Databases &amp; Messaging</strong></td>
+<td><strong>🗄️ Bases de données · Databases · Bases de datos &amp; Messaging</strong></td>
 <td>
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL_16-4169E1?style=flat-square&logo=postgresql&logoColor=white)
@@ -116,7 +132,7 @@ Available for **freelance**, **remote**, or **on-site Lyon / AuRA region** engag
 </td>
 </tr>
 <tr>
-<td><strong>🎯 Spécialités Critiques · Critical Specialties</strong></td>
+<td><strong>🎯 Spécialités Critiques · Critical Specialties · Especialidades Críticas</strong></td>
 <td>
 
 `Factur-X / ZUGFeRD` &nbsp; `DGFiP 2026 compliance` &nbsp; `ROUND_HALF_UP decimal engine` &nbsp; `TVA/IVA coherence` &nbsp; `SRE Sidecar MCP` &nbsp; `Traffic interception` &nbsp; `Background Artisan workers`
@@ -128,7 +144,7 @@ Available for **freelance**, **remote**, or **on-site Lyon / AuRA region** engag
 
 ---
 
-## 🚀 Portfolio · Projets Phares · Featured Projects
+## 🚀 Portfolio · Projets Phares · Featured Projects · Proyectos Destacados
 
 ---
 
@@ -136,7 +152,7 @@ Available for **freelance**, **remote**, or **on-site Lyon / AuRA region** engag
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 **🇫🇷 Contexte**
 
@@ -150,7 +166,7 @@ Plateforme SaaS de génération de factures électroniques au format **Factur-X 
 - Pipeline : soumission → file Redis → worker Celery → PDF+XML → stockage
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 **🇬🇧 Context**
 
@@ -162,6 +178,20 @@ SaaS platform for generating electronic invoices in **Factur-X / ZUGFeRD** forma
 - Dedicated `KVM VPS` + `Cloudflare Proxy` (DDoS, cache, SSL)
 - Hybrid PDF/XML generation compliant with EN 16931
 - Pipeline: submission → Redis queue → Celery worker → PDF+XML → storage
+
+</td>
+<td width="33%" valign="top">
+
+**🇪🇸 Contexto**
+
+Plataforma SaaS de generación de facturas electrónicas en formato **Factur-X / ZUGFeRD**, conforme a la obligación DGFiP 2026 para empresas francesas. MVP funcional entregado **en una tarde** desde cero absoluto.
+
+**Arquitectura:**
+- `FastAPI` · `Celery` · `Redis` (cola asíncrona)
+- `PostgreSQL 16` con motor decimal `ROUND_HALF_UP`
+- `KVM VPS` dedicado + `Cloudflare Proxy` (DDoS, caché, SSL)
+- Generación PDF/XML híbrida conforme EN 16931
+- Pipeline: envío → cola Redis → worker Celery → PDF+XML → almacenamiento
 
 </td>
 </tr>
@@ -176,11 +206,11 @@ SaaS platform for generating electronic invoices in **Factur-X / ZUGFeRD** forma
 
 ---
 
-### 📊 ViruSyry — SaaS Comptable B2B · Accounting SaaS
+### 📊 ViruSyry — SaaS Comptable B2B · Accounting SaaS · SaaS Contable B2B
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 **🇫🇷 Contexte**
 
@@ -193,7 +223,7 @@ Plateforme comptable B2B avec un **sidecar MCP autonome** (FastMCP) jouant le r�
 - Gestion des états de paiement avec audit trail immuable
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 **🇬🇧 Context**
 
@@ -206,6 +236,19 @@ B2B accounting platform featuring an **autonomous MCP sidecar** (FastMCP) acting
 - Payment state management with immutable audit trail
 
 </td>
+<td width="33%" valign="top">
+
+**🇪🇸 Contexto**
+
+Plataforma contable B2B con un **sidecar MCP autónomo** (FastMCP) actuando como SRE interno — monitoreo de servicios, alertas proactivas y auto-reparación sin intervención humana.
+
+**Puntos técnicos clave:**
+- Motor decimal `ROUND_HALF_UP` para coherencia IVA/TVA absoluta
+- Anti-ban WhatsApp vía `asyncio.Lock` — cero colisión de sesiones concurrentes
+- Arquitectura sidecar desacoplada: el MCP opera independientemente del monolito principal
+- Gestión de estados de pago con audit trail inmutable
+
+</td>
 </tr>
 </table>
 
@@ -216,24 +259,24 @@ B2B accounting platform featuring an **autonomous MCP sidecar** (FastMCP) acting
 
 ---
 
-### 🔬 AutoDiagnosis — IA Diagnostique · AI Diagnostic Engine
+### 🔬 AutoDiagnosis — IA Diagnostique · AI Diagnostic Engine · Motor de Diagnóstico IA
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 **🇫🇷 Contexte**
 
 Moteur de diagnostic IA pour le secteur médical ou technique, construit sur **Laravel 13 / PHP 8.4** avec intégration de **DeepSeek R1** comme modèle de raisonnement.
 
 **Architecture :**
-- Intercepteur de trafic HTTP pour journalisation et analyse des requêtes en temps réel
+- Intercepteur de trafic HTTP pour journalisation et analyse en temps réel
 - Workers background détachés via `Artisan` — traitements lourds sans timeout HTTP
 - Intégration DeepSeek R1 pour raisonnement chaîné (chain-of-thought) sur données cliniques/techniques
 - Pipeline : requête → intercepteur → queue → worker détaché → réponse asynchrone
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 **🇬🇧 Context**
 
@@ -246,6 +289,19 @@ AI diagnostic engine for medical or technical sectors, built on **Laravel 13 / P
 - Pipeline: request → interceptor → queue → detached worker → async response
 
 </td>
+<td width="33%" valign="top">
+
+**🇪🇸 Contexto**
+
+Motor de diagnóstico IA para el sector médico o técnico, construido sobre **Laravel 13 / PHP 8.4** con integración de **DeepSeek R1** como modelo de razonamiento.
+
+**Arquitectura:**
+- Interceptor de tráfico HTTP para logging y análisis de peticiones en tiempo real
+- Workers background desacoplados vía `Artisan` — procesamiento pesado sin timeout HTTP
+- Integración DeepSeek R1 para razonamiento encadenado (chain-of-thought) sobre datos clínicos/técnicos
+- Pipeline: petición → interceptor → cola → worker desacoplado → respuesta asíncrona
+
+</td>
 </tr>
 </table>
 
@@ -255,11 +311,11 @@ AI diagnostic engine for medical or technical sectors, built on **Laravel 13 / P
 
 ---
 
-### 🪪 TERA — SaaS Identité Numérique · Digital Identity SaaS
+### 🪪 TERA — SaaS Identité Numérique · Digital Identity SaaS · SaaS Identidad Digital
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 **🇫🇷 Contexte**
 
@@ -272,7 +328,7 @@ Plateforme SaaS d'identité numérique avec un **bot vendeur intelligent** const
 - Architecture découplée : indexeur indépendant + bot RAG + backend identité
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 **🇬🇧 Context**
 
@@ -285,6 +341,19 @@ Digital identity SaaS platform featuring an **intelligent sales bot** built on a
 - Decoupled architecture: independent indexer + RAG bot + identity backend
 
 </td>
+<td width="33%" valign="top">
+
+**🇪🇸 Contexto**
+
+Plataforma SaaS de identidad digital con un **bot vendedor inteligente** construido sobre una **arquitectura RAG** (Retrieval-Augmented Generation) con catálogo de productos indexado dinámicamente.
+
+**Puntos técnicos clave:**
+- Coste por mensaje: **~$0.005/msg** gracias a la optimización de embeddings y contexto inyectado
+- Catálogo indexado en vectores: consultas semánticas sobre el inventario en tiempo real
+- Bot conversacional multi-etapa con gestión de estado de sesión
+- Arquitectura desacoplada: indexador independiente + bot RAG + backend de identidad
+
+</td>
 </tr>
 </table>
 
@@ -294,11 +363,11 @@ Digital identity SaaS platform featuring an **intelligent sales bot** built on a
 
 ---
 
-## 🌐 Approche Internationale · International Working Style
+## 🌐 Approche Internationale · International Working Style · Enfoque Internacional
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 **🇫🇷 Ingénierie Asynchrone**
 
@@ -312,7 +381,7 @@ Mon niveau de performance optimal est en **espagnol**. Dans les environnements i
 Cette méthode garantit une **compréhension à 100%** des spécifications techniques, indépendamment de la langue de la réunion.
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 **🇬🇧 Async Engineering Approach**
 
@@ -326,18 +395,33 @@ My peak performance language is **Spanish**. In international environments (Lyon
 This method guarantees **100% comprehension** of technical specifications, regardless of the meeting language.
 
 </td>
+<td width="33%" valign="top">
+
+**🇪🇸 Ingeniería Asíncrona**
+
+Mi idioma de rendimiento óptimo es el **español**. En entornos internacionales (Lyon, remote Europa, equipos anglófonos o francófonos), aplico un enfoque de **ingeniería asíncrona** que elimina ambigüedades:
+
+1. 🎙️ **Grabación** de reuniones y llamadas
+2. 📝 **Transcripción** automática (Whisper / AssemblyAI)
+3. 🤖 **Procesamiento con Gemini** en modo interactivo para extraer, clarificar y estructurar los requisitos
+4. ✅ **Entrega** vía Slack, GitHub o Jira — cero margen de error
+
+Este método garantiza una **comprensión al 100%** de las especificaciones técnicas, independientemente del idioma de la reunión.
+
+</td>
 </tr>
 </table>
 
 ---
 
-## 💼 Services · Disponibilité · Availability
+## 💼 Services · Availability · Servicios y Disponibilidad
 
 <table>
 <thead>
 <tr>
 <th>Service 🇫🇷</th>
 <th>Service 🇬🇧</th>
+<th>Servicio 🇪🇸</th>
 <th>Status</th>
 </tr>
 </thead>
@@ -345,39 +429,45 @@ This method guarantees **100% comprehension** of technical specifications, regar
 <tr>
 <td>Développement SaaS complet</td>
 <td>Full-Stack SaaS Development</td>
-<td>✅ Disponible · Available</td>
+<td>Desarrollo SaaS completo</td>
+<td>✅ Disponible</td>
 </tr>
 <tr>
 <td>Architecture Cloud &amp; DevOps</td>
 <td>Cloud Architecture &amp; DevOps</td>
-<td>✅ Disponible · Available</td>
+<td>Arquitectura Cloud &amp; DevOps</td>
+<td>✅ Disponible</td>
 </tr>
 <tr>
 <td>Intégration IA / LLM dans produits existants</td>
 <td>AI / LLM integration into existing products</td>
-<td>✅ Disponible · Available</td>
+<td>Integración IA / LLM en productos existentes</td>
+<td>✅ Disponible</td>
 </tr>
 <tr>
 <td>Conformité Factur-X / DGFiP 2026</td>
 <td>Factur-X / DGFiP 2026 compliance</td>
-<td>✅ Disponible · Available</td>
+<td>Cumplimiento Factur-X / DGFiP 2026</td>
+<td>✅ Disponible</td>
 </tr>
 <tr>
 <td>Bots Telegram &amp; automatisations</td>
 <td>Telegram bots &amp; automations</td>
-<td>✅ Disponible · Available</td>
+<td>Bots de Telegram y automatizaciones</td>
+<td>✅ Disponible</td>
 </tr>
 <tr>
 <td>Audit &amp; refactoring de code existant</td>
 <td>Code audit &amp; refactoring</td>
-<td>✅ Disponible · Available</td>
+<td>Auditoría y refactorización de código</td>
+<td>✅ Disponible</td>
 </tr>
 </tbody>
 </table>
 
 ---
 
-## 📫 Contact
+## 📫 Contact · Contacto
 
 <div align="center">
 
@@ -404,9 +494,11 @@ This method guarantees **100% comprehension** of technical specifications, regar
 
 <div align="center">
 
-> *"Je ne code pas juste — je conçois des systèmes qui durent, orchestrés par l'IA, livrés à la vitesse de la pensée."*
+> 🇫🇷 *"Je ne code pas juste — je conçois des systèmes qui durent, orchestrés par l'IA, livrés à la vitesse de la pensée."*
 >
-> *"I don't just code — I architect systems that last, orchestrated by AI, delivered at the speed of thought."*
+> 🇬🇧 *"I don't just code — I architect systems that last, orchestrated by AI, delivered at the speed of thought."*
+>
+> 🇪🇸 *"No solo escribo código — diseño sistemas que perduran, orquestados por IA, entregados a la velocidad del pensamiento."*
 
 **César Ruzafa Alberola · AI-Augmented Software Engineer**
 
